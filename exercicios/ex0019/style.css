@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+  em HTMLé id =EM css É #
+  em HTML é  class = em CSS é .
+ */
+
+body {
+    background-color: rgba(18, 248, 191, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+color: rgb(36, 212, 20);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h1#caioX {
+    font: sans-serif, center, color blue;
+    background-color: black; font-size: 3fr;
+}
+
+h2#caiodp {
+    color: red;
+    background-color: rgb;
+}
+
+h2 {
+color: rgb(69, 128, 21);
+}
+
+.basico {
+    color: rgb(158, 22, 22);
+}
+.caioctt {
+   color: cornflowerblue;
+   background-color: yellow;
+}
