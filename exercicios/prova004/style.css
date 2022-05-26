@@ -59,6 +59,10 @@ section {
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: rgb(0, 0, 0);
@@ -67,13 +71,28 @@ section.normal {
 section.imagem {
     background-color: rgb(32, 32, 32);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
 }
 
 section.imagem > p {
     padding: 18px 5px;
    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.445);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+    background-attachment: fixed;
 }
+
+section#img01 {
+    background-image: url(../prova004/pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover ;
+}
+
+section#img02 {
+    background-image: url(../prova004/pacote-d012/imagens/background002.jpg);
+    background-size: cover ;
+}
+
 
 footer {
     background-color: black;
