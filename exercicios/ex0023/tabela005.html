@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicís de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: 	#00BDCE;
+        }
+
+        col.csexo {
+            background-color: pink;
+        }
+
+        col.cidade{
+            background-color: greenyellow;
+        }
+
+        col.cprof {
+            background-color: rgb(253, 168, 10);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicís de tabelas</h1>
+
+
+
+    <table>
+        <colgroup> 
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col" >Nome</th>
+            <th scope="col" >sexo</th>
+            <th scope="col" >idade</th>
+            <th scope="col" >profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudinha Eleita</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Prefeita</td>
+        </tr>
+        <tr>
+            <td>Claudão eleito</td>
+            <td>M</td>
+            <td>47</td>
+            <td>Dono de casa, Claudinha Eleita obrigou</td>
+        </tr>
+        <tr>
+            <td>Jorjão o Noia</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Bartenderman</td>
+        </tr>
+        <tr>
+            <td>Geovanni Iludida</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Blogueira</td>
+        </tr>
+        <tr>
+            <td>Jorginha A mãe</td>
+            <td>F/M</td>
+            <td>49</td>
+            <td>Mãe</td>
+        </tr>
+        <tr>
+            <td>Cleber do Gas</td>
+            <td>M</td>
+            <td>31</td>
+            <td>gas</td>
+        </tr>
+    </table>
+</body>
+</html>
